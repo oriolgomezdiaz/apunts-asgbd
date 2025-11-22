@@ -4,7 +4,7 @@
 
 Un **SGBD** (Sistema Gestor de Bases de Dades) o DBMS és una aplicació que actua com a interfície entre l'usuari i la base de dades. [cite_start]Permet definir, crear, mantenir i controlar l'accés a les dades [cite: 13-14].
 
-[cite_start]Una **Base de Dades** és un conjunt organitzat de dades relacionades entre si segons una estructura, sent el model relacional el més estès [cite: 11-12].
+[cite_start]Una **Base de Dades** és un conjunt organitzat de dades relacionades entre si segons una estructura, sent el model relacional el més estès.
 
 ## Funcions clau
 
