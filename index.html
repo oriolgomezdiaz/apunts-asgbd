@@ -35,7 +35,7 @@
             const path_to_root = "";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "searchindex-2ba6d604.js";
+            window.path_to_searchindex_js = "searchindex-a1a4e1bd.js";
         </script>
         <!-- Start loading toc.js asap -->
         <script src="toc-daf8a236.js"></script>
@@ -177,7 +177,37 @@
 
                 <div id="mdbook-content" class="content">
                     <main>
-                        
+                        <h1 id="apunts-administració-de-sgbd-asgbd"><a class="header" href="#apunts-administració-de-sgbd-asgbd">Apunts: Administració de SGBD (ASGBD)</a></h1>
+<p>Benvinguts als apunts de l’assignatura d’Administració de Sistemes Gestors de Bases de Dades. Aquesta documentació cobreix des de l’arquitectura interna d’un gestor fins a la configuració avançada de seguretat i usuaris en MySQL.</p>
+<hr>
+<h2 id="-índex-de-continguts"><a class="header" href="#-índex-de-continguts">📚 Índex de Continguts</a></h2>
+<h3 id="-tema-1-arquitectura-i-fonaments"><a class="header" href="#-tema-1-arquitectura-i-fonaments">🏗️ Tema 1: Arquitectura i Fonaments</a></h3>
+<p>Entenent com funciona la base de dades “per dins”.</p>
+<ul>
+<li><a href="./tema1/conceptes.html"><strong>Conceptes Clau</strong></a>: Diferències entre SGBD i BD, funcions ACID i tipus de llicències.</li>
+<li><a href="./tema1/restaurant.html"><strong>Arquitectura (Model Restaurant)</strong></a>: L’analogia del cambrer (API), el xef (Optimitzador) i el rebost (Motor) per entendre el flux d’una consulta.</li>
+<li><a href="./tema1/connectivitat.html"><strong>Connectivitat</strong></a>: Diferències entre els drivers ODBC i els 4 tipus de JDBC.</li>
+<li><a href="./tema1/mysql-internals.html"><strong>Internals de MySQL</strong></a>: Configuració d’instàncies, fitxers de logs i el diccionari de dades (<code>INFORMATION_SCHEMA</code>).</li>
+</ul>
+<h3 id="-tema-2-seguretat-i-control-daccés"><a class="header" href="#-tema-2-seguretat-i-control-daccés">🛡️ Tema 2: Seguretat i Control d’Accés</a></h3>
+<p>Gestionant qui entra i què pot fer.</p>
+<ul>
+<li><a href="./tema2/autenticacio.html"><strong>Autenticació</strong></a>: Com verifica MySQL la identitat (Host + Usuari) i com resol conflictes de connexió.</li>
+<li><a href="./tema2/permisos.html"><strong>Sistema de Permisos</strong></a>: La jerarquia de privilegis (Global &gt; DB &gt; Taula &gt; Columna).</li>
+<li><a href="./tema2/rols-recursos.html"><strong>Rols i Recursos</strong></a>: Creació de rols per agrupar permisos i limitació de recursos per hora.</li>
+<li><a href="./tema2/seguretat.html"><strong>Seguretat a la Xarxa</strong></a>: Xifratge amb TLS/SSL i ús de túnels SSH per protegir les dades en trànsit.</li>
+</ul>
+<h3 id="-pròximament"><a class="header" href="#-pròximament">🔜 Pròximament</a></h3>
+<ul>
+<li><strong>Tema 3:</strong> (Pendent de publicació)</li>
+<li><strong>Tema 4:</strong> (Pendent de publicació)</li>
+</ul>
+<hr>
+<blockquote>
+<p><strong>Nota:</strong> Material basat en les videoclasses del curs 2025-2026.
+<a href="https://github.com/oriolgomezdiaz">Tornar al meu GitHub</a></p>
+</blockquote>
+
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
