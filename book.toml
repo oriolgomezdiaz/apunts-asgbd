@@ -1,7 +1,6 @@
 [book]
 authors = ["Oriol Gómez Díaz"]
 language = "ca"
-multilingual = false
 src = "src"
 title = "Apunts ASGBD - Administració de Sistemes Gestors de Bases de Dades"
 
